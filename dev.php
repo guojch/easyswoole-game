@@ -1,4 +1,5 @@
 <?php
+
 return [
     'SERVER_NAME' => "EasySwoole",
     'MAIN_SERVER' => [
@@ -10,14 +11,31 @@ return [
         'SETTING' => [
             'worker_num' => 8,
             'reload_async' => true,
-            'max_wait_time'=>3
+            'max_wait_time' => 3
         ],
-        'TASK'=>[
-            'workerNum'=>4,
-            'maxRunningNum'=>128,
-            'timeout'=>15
+        'TASK' => [
+            'workerNum' => 4,
+            'maxRunningNum' => 128,
+            'timeout' => 15
         ]
     ],
     'TEMP_DIR' => null,
-    'LOG_DIR' => null
+    'LOG_DIR' => null,
+
+    'MYSQL' => [
+        'host' => '127.0.0.1',
+        'port' => '3306',
+        'user' => 'root',
+        'password' => '',
+        'database' => '',
+        'timeout' => '5',
+        'charset' => 'utf8mb4',
+    ],
+
+    'REDIS' => [
+        'host' => '127.0.0.1',
+        'port' => '6379',
+        'auth' => '',
+    ],
+
 ];

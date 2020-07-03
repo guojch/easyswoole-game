@@ -46,6 +46,8 @@ class ComposerStaticInita255584d85082549213ad90e4c7af013
             'EasySwoole\\Config\\' => 18,
             'EasySwoole\\Component\\Tests\\' => 27,
             'EasySwoole\\Component\\' => 21,
+            'EasySwoole\\Actor\\Test\\' => 22,
+            'EasySwoole\\Actor\\' => 17,
         ),
         'C' => 
         array (
@@ -149,6 +151,14 @@ class ComposerStaticInita255584d85082549213ad90e4c7af013
         'EasySwoole\\Component\\' => 
         array (
             0 => __DIR__ . '/..' . '/easyswoole/component/src',
+        ),
+        'EasySwoole\\Actor\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/easyswoole/actor/test',
+        ),
+        'EasySwoole\\Actor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/easyswoole/actor/src',
         ),
         'Cron\\' => 
         array (

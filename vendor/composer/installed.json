@@ -646,6 +646,120 @@
         ]
     },
     {
+        "name": "easyswoole/redis",
+        "version": "1.3.3",
+        "version_normalized": "1.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easy-swoole/redis.git",
+            "reference": "a941645feb6b2e9e99b4a5e9f51f90f6a7f71591"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/easy-swoole/redis/zipball/a941645feb6b2e9e99b4a5e9f51f90f6a7f71591",
+            "reference": "a941645feb6b2e9e99b4a5e9f51f90f6a7f71591",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "easyswoole/spl": "^1.2",
+            "ext-swoole": "^4.4.0",
+            "php": ">=7.1.0"
+        },
+        "require-dev": {
+            "easyswoole/phpunit": ">=1.0.0",
+            "easyswoole/swoole-ide-helper": "^1.2"
+        },
+        "time": "2020-06-30T12:45:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EasySwoole\\Redis\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "YF",
+                "email": "291323003@qq.com"
+            }
+        ],
+        "description": "easyswoole component",
+        "homepage": "https://www.easyswoole.com/",
+        "keywords": [
+            "async",
+            "easyswoole",
+            "framework",
+            "swoole"
+        ]
+    },
+    {
+        "name": "easyswoole/redis-pool",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easy-swoole/redis-pool.git",
+            "reference": "3d6d0601f80ce2ad16764c534078b5970d85f6da"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/easy-swoole/redis-pool/zipball/3d6d0601f80ce2ad16764c534078b5970d85f6da",
+            "reference": "3d6d0601f80ce2ad16764c534078b5970d85f6da",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "easyswoole/component": "^2.0",
+            "easyswoole/pool": "^1.0",
+            "easyswoole/redis": "^1.0",
+            "easyswoole/spl": "^1.1"
+        },
+        "require-dev": {
+            "easyswoole/swoole-ide-helper": "^1.2"
+        },
+        "time": "2020-03-09T07:04:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EasySwoole\\RedisPool\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "YF",
+                "email": "291323003@qq.com"
+            }
+        ],
+        "description": "An efficient swoole framework",
+        "homepage": "https://www.easyswoole.com/",
+        "keywords": [
+            "async",
+            "easyswoole",
+            "framework",
+            "swoole"
+        ]
+    },
+    {
         "name": "easyswoole/socket",
         "version": "1.1.12",
         "version_normalized": "1.1.12.0",
